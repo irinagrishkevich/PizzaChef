@@ -74,11 +74,14 @@ body {
 .main-info h1 {
     font-size: 45px;
     font-family: MullerExtraBold, sans-serif;
-    color: rgb(185, 145, 80);
     line-height: 1.222;
 }
 
-.main-info h1 span {
+.double-title {
+    color: rgb(185, 145, 80);
+}
+
+.double-title span {
     color: #ffaf18;
 }
 
@@ -180,8 +183,73 @@ body {
     height: 49px;
     margin: 14px 0 15px 0;
 }
-.product-action .btn{
+
+.product-action .btn {
     width: 242px;
     height: 50px;
     padding: 17px;
+}
+
+.order {
+    padding: 120px 0 115px 0;
+    overflow: hidden;
+}
+
+.order .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.order-text {
+    max-width: 384px;
+}
+
+.order-text-title {
+    font-size: 35px;
+    font-family: MullerExtraBold, sans-serif;
+    margin-bottom: 65px;
+}
+
+.order-text-message {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+}
+.order-form {
+    margin-left: 122px;
+    max-width: 330px;
+}
+
+.order-input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    height: 60px;
+    font-size: 18px;
+    color: rgb(117, 93, 51);
+    padding: 23px 22px 24px 22px;
+    margin-bottom:24px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.order-input::placeholder {
+    color: rgb(203, 168, 110);
+}
+.order .btn{
+    width: 330px;
+    height: 60px;
+}
+.order-img{
+    width: 282px;
+    position: relative;
+    margin-left: 78px;
+}
+.order-img img{
+    position: absolute;
+    bottom: -35px;
+    left: 0;
 }
