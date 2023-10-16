@@ -17,35 +17,117 @@
     font-family: MullerExtraBold;
     src: url("../fonts/MullerExtraBold.otf");
 }
-body{
-    font-family: Muller,sans-serif;
+
+body {
+    font-family: Muller, sans-serif;
 }
-.header{
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
-        padding: 16px 0 15px 0;
+
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    padding: 16px 0 15px 0;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.header .container{
+
+.header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.menu{
+
+.menu {
 
 }
-.menu ul{
+
+.menu ul {
     list-style: none;
     display: flex;
     width: 489px;
     justify-content: space-between;
 }
-.menu-item a{
+
+.menu-item a {
     text-decoration: none;
-        font-size: 16px;
-        color: rgb(164, 107, 0);
-        line-height: 1;
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    line-height: 1;
+}
+
+.main {
+    margin: 132px 0 81px 0;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-info {
+    max-width: 622px;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    font-family: MullerExtraBold, sans-serif;
+    color: rgb(185, 145, 80);
+    line-height: 1.222;
+}
+
+.main-info h1 span {
+    color: #ffaf18;
+}
+
+.main-advantages {
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantage {
+    max-width: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.advantage-text {
+    margin-left: 16px;
+}
+
+.advantage-title {
+    font-size: 16px;
+    font-family: MullerExtraBold, sans-serif;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    margin-bottom: 10px
+}
+
+.advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+}
+
+.main-action {
+    margin-top: 60px;
+}
+
+.btn {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(56, 36, 0);
 }
